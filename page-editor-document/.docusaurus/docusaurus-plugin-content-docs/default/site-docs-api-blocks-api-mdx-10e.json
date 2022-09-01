@@ -1,0 +1,22 @@
+{
+  "unversionedId": "api/blocks_api",
+  "id": "api/blocks_api",
+  "title": "Block API",
+  "description": "API",
+  "source": "@site/docs/api/blocks_api.mdx",
+  "sourceDirName": "api",
+  "slug": "/api/blocks_api",
+  "permalink": "/docs/api/blocks_api",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/blocks_api.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Block API"
+  },
+  "sidebar": "api",
+  "next": {
+    "title": "Hooks",
+    "permalink": "/docs/api/hooks"
+  }
+}

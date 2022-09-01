@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guide/page_data_structure",
+  "id": "guide/page_data_structure",
+  "title": "PageData 数据结构",
+  "description": "",
+  "source": "@site/docs/guide/page_data_structure.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/page_data_structure",
+  "permalink": "/docs/guide/page_data_structure",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/page_data_structure.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "PageData 数据结构"
+  },
+  "sidebar": "guide",
+  "previous": {
+    "title": "index",
+    "permalink": "/docs/guide/"
+  },
+  "next": {
+    "title": "Provider",
+    "permalink": "/docs/guide/providers"
+  }
+}

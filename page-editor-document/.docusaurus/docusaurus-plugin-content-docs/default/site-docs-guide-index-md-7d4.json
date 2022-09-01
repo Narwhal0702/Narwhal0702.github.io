@@ -1,0 +1,24 @@
+{
+  "unversionedId": "guide/index",
+  "id": "guide/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/guide/index.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/",
+  "permalink": "/docs/guide/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "guide",
+  "previous": {
+    "title": "C端渲染，",
+    "permalink": "/docs/guide/c_side_render"
+  },
+  "next": {
+    "title": "PageData 数据结构",
+    "permalink": "/docs/guide/page_data_structure"
+  }
+}

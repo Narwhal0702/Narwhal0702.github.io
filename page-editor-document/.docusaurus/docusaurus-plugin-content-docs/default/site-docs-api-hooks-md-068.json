@@ -1,0 +1,22 @@
+{
+  "unversionedId": "api/hooks",
+  "id": "api/hooks",
+  "title": "Hooks",
+  "description": "adsasdas",
+  "source": "@site/docs/api/hooks.md",
+  "sourceDirName": "api",
+  "slug": "/api/hooks",
+  "permalink": "/docs/api/hooks",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/hooks.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Hooks"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "Block API",
+    "permalink": "/docs/api/blocks_api"
+  }
+}

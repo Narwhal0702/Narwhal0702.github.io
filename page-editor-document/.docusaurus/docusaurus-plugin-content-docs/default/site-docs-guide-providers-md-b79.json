@@ -1,0 +1,22 @@
+{
+  "unversionedId": "guide/providers",
+  "id": "guide/providers",
+  "title": "Provider",
+  "description": "PageEditorProvider",
+  "source": "@site/docs/guide/providers.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/providers",
+  "permalink": "/docs/guide/providers",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/providers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Provider"
+  },
+  "sidebar": "guide",
+  "previous": {
+    "title": "PageData 数据结构",
+    "permalink": "/docs/guide/page_data_structure"
+  }
+}

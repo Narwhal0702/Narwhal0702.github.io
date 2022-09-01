@@ -1,0 +1,80 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro/quick_start",
+          "docs": [
+            {
+              "id": "api/blocks_api",
+              "path": "/docs/api/blocks_api",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/hooks",
+              "path": "/docs/api/hooks",
+              "sidebar": "api"
+            },
+            {
+              "id": "guide/b_side_editor",
+              "path": "/docs/guide/b_side_editor",
+              "sidebar": "guide"
+            },
+            {
+              "id": "guide/c_side_render",
+              "path": "/docs/guide/c_side_render",
+              "sidebar": "guide"
+            },
+            {
+              "id": "guide/index",
+              "path": "/docs/guide/",
+              "sidebar": "guide"
+            },
+            {
+              "id": "guide/page_data_structure",
+              "path": "/docs/guide/page_data_structure",
+              "sidebar": "guide"
+            },
+            {
+              "id": "guide/providers",
+              "path": "/docs/guide/providers",
+              "sidebar": "guide"
+            },
+            {
+              "id": "intro/quick_start",
+              "path": "/docs/intro/quick_start",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/docs/intro/quick_start",
+                "label": "intro/quick_start"
+              }
+            },
+            "api": {
+              "link": {
+                "path": "/docs/api/blocks_api",
+                "label": "api/blocks_api"
+              }
+            },
+            "guide": {
+              "link": {
+                "path": "/docs/guide/b_side_editor",
+                "label": "guide/b_side_editor"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

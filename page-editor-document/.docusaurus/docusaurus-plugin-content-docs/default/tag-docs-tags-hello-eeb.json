@@ -1,0 +1,20 @@
+{
+  "label": "hello",
+  "permalink": "/docs/tags/hello",
+  "allTagsPath": "/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "api/api",
+      "title": "Long Blog Post",
+      "description": "This is the summary of a very long blog post,",
+      "permalink": "/docs/api/"
+    },
+    {
+      "id": "api/2021-08-26-welcome/index",
+      "title": "Welcome",
+      "description": "Docusaurus blogging features are powered by the blog plugin.",
+      "permalink": "/docs/api/2021-08-26-welcome/welcome"
+    }
+  ]
+}

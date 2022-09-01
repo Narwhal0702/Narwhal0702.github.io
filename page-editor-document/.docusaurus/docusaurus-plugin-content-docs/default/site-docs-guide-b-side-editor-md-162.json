@@ -1,0 +1,22 @@
+{
+  "unversionedId": "guide/b_side_editor",
+  "id": "guide/b_side_editor",
+  "title": "B端编辑器",
+  "description": "",
+  "source": "@site/docs/guide/b_side_editor.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/b_side_editor",
+  "permalink": "/docs/guide/b_side_editor",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/b_side_editor.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "B端编辑器"
+  },
+  "sidebar": "guide",
+  "next": {
+    "title": "C端渲染，",
+    "permalink": "/docs/guide/c_side_render"
+  }
+}

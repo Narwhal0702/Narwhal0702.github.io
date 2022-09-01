@@ -1,0 +1,32 @@
+{
+  "label": "docusaurus",
+  "permalink": "/docs/tags/docusaurus",
+  "allTagsPath": "/docs/tags",
+  "count": 4,
+  "items": [
+    {
+      "id": "api/2019-05-28-first-blog-post",
+      "title": "First Blog Post",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+      "permalink": "/docs/api/first-blog-post"
+    },
+    {
+      "id": "api/api",
+      "title": "Long Blog Post",
+      "description": "This is the summary of a very long blog post,",
+      "permalink": "/docs/api/"
+    },
+    {
+      "id": "api/2021-08-01-mdx-blog-post",
+      "title": "MDX Blog Post",
+      "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+      "permalink": "/docs/api/mdx-blog-post"
+    },
+    {
+      "id": "api/2021-08-26-welcome/index",
+      "title": "Welcome",
+      "description": "Docusaurus blogging features are powered by the blog plugin.",
+      "permalink": "/docs/api/2021-08-26-welcome/welcome"
+    }
+  ]
+}

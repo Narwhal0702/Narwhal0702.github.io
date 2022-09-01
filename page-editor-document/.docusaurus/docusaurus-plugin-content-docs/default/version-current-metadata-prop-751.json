@@ -1,0 +1,115 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "docs": [
+      {
+        "type": "link",
+        "label": "Quick Start",
+        "href": "/docs/intro/quick_start",
+        "docId": "intro/quick_start"
+      }
+    ],
+    "api": [
+      {
+        "type": "link",
+        "label": "Block API",
+        "href": "/docs/api/blocks_api",
+        "docId": "api/blocks_api"
+      },
+      {
+        "type": "link",
+        "label": "Hooks",
+        "href": "/docs/api/hooks",
+        "docId": "api/hooks"
+      }
+    ],
+    "guide": [
+      {
+        "type": "link",
+        "label": "B端编辑器",
+        "href": "/docs/guide/b_side_editor",
+        "docId": "guide/b_side_editor"
+      },
+      {
+        "type": "link",
+        "label": "C端渲染，",
+        "href": "/docs/guide/c_side_render",
+        "docId": "guide/c_side_render"
+      },
+      {
+        "type": "link",
+        "label": "index",
+        "href": "/docs/guide/",
+        "docId": "guide/index"
+      },
+      {
+        "type": "link",
+        "label": "PageData 数据结构",
+        "href": "/docs/guide/page_data_structure",
+        "docId": "guide/page_data_structure"
+      },
+      {
+        "type": "link",
+        "label": "Provider",
+        "href": "/docs/guide/providers",
+        "docId": "guide/providers"
+      }
+    ]
+  },
+  "docs": {
+    "api/blocks_api": {
+      "id": "api/blocks_api",
+      "title": "Block API",
+      "description": "API",
+      "sidebar": "api"
+    },
+    "api/hooks": {
+      "id": "api/hooks",
+      "title": "Hooks",
+      "description": "adsasdas",
+      "sidebar": "api"
+    },
+    "guide/b_side_editor": {
+      "id": "guide/b_side_editor",
+      "title": "B端编辑器",
+      "description": "",
+      "sidebar": "guide"
+    },
+    "guide/c_side_render": {
+      "id": "guide/c_side_render",
+      "title": "C端渲染，",
+      "description": "",
+      "sidebar": "guide"
+    },
+    "guide/index": {
+      "id": "guide/index",
+      "title": "index",
+      "description": "",
+      "sidebar": "guide"
+    },
+    "guide/page_data_structure": {
+      "id": "guide/page_data_structure",
+      "title": "PageData 数据结构",
+      "description": "",
+      "sidebar": "guide"
+    },
+    "guide/providers": {
+      "id": "guide/providers",
+      "title": "Provider",
+      "description": "PageEditorProvider",
+      "sidebar": "guide"
+    },
+    "intro/quick_start": {
+      "id": "intro/quick_start",
+      "title": "Quick Start",
+      "description": "安装要求",
+      "sidebar": "docs"
+    }
+  }
+}

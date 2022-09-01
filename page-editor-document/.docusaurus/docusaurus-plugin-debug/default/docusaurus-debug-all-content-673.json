@@ -1,0 +1,282 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/y.wang/Projects/page-editor-document/page-editor-document/sidebars.js",
+          "contentPath": "/Users/y.wang/Projects/page-editor-document/page-editor-document/docs",
+          "contentPathLocalized": "/Users/y.wang/Projects/page-editor-document/page-editor-document/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "api/blocks_api",
+              "id": "api/blocks_api",
+              "title": "Block API",
+              "description": "API",
+              "source": "@site/docs/api/blocks_api.mdx",
+              "sourceDirName": "api",
+              "slug": "/api/blocks_api",
+              "permalink": "/docs/api/blocks_api",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/blocks_api.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Block API"
+              },
+              "sidebar": "api",
+              "next": {
+                "title": "Hooks",
+                "permalink": "/docs/api/hooks"
+              }
+            },
+            {
+              "unversionedId": "api/hooks",
+              "id": "api/hooks",
+              "title": "Hooks",
+              "description": "adsasdas",
+              "source": "@site/docs/api/hooks.md",
+              "sourceDirName": "api",
+              "slug": "/api/hooks",
+              "permalink": "/docs/api/hooks",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/hooks.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Hooks"
+              },
+              "sidebar": "api",
+              "previous": {
+                "title": "Block API",
+                "permalink": "/docs/api/blocks_api"
+              }
+            },
+            {
+              "unversionedId": "guide/b_side_editor",
+              "id": "guide/b_side_editor",
+              "title": "B端编辑器",
+              "description": "",
+              "source": "@site/docs/guide/b_side_editor.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/b_side_editor",
+              "permalink": "/docs/guide/b_side_editor",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/b_side_editor.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "B端编辑器"
+              },
+              "sidebar": "guide",
+              "next": {
+                "title": "C端渲染，",
+                "permalink": "/docs/guide/c_side_render"
+              }
+            },
+            {
+              "unversionedId": "guide/c_side_render",
+              "id": "guide/c_side_render",
+              "title": "C端渲染，",
+              "description": "",
+              "source": "@site/docs/guide/c_side_render.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/c_side_render",
+              "permalink": "/docs/guide/c_side_render",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/c_side_render.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "C端渲染，"
+              },
+              "sidebar": "guide",
+              "previous": {
+                "title": "B端编辑器",
+                "permalink": "/docs/guide/b_side_editor"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/docs/guide/"
+              }
+            },
+            {
+              "unversionedId": "guide/index",
+              "id": "guide/index",
+              "title": "index",
+              "description": "",
+              "source": "@site/docs/guide/index.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/",
+              "permalink": "/docs/guide/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "guide",
+              "previous": {
+                "title": "C端渲染，",
+                "permalink": "/docs/guide/c_side_render"
+              },
+              "next": {
+                "title": "PageData 数据结构",
+                "permalink": "/docs/guide/page_data_structure"
+              }
+            },
+            {
+              "unversionedId": "guide/page_data_structure",
+              "id": "guide/page_data_structure",
+              "title": "PageData 数据结构",
+              "description": "",
+              "source": "@site/docs/guide/page_data_structure.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/page_data_structure",
+              "permalink": "/docs/guide/page_data_structure",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/page_data_structure.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "PageData 数据结构"
+              },
+              "sidebar": "guide",
+              "previous": {
+                "title": "index",
+                "permalink": "/docs/guide/"
+              },
+              "next": {
+                "title": "Provider",
+                "permalink": "/docs/guide/providers"
+              }
+            },
+            {
+              "unversionedId": "guide/providers",
+              "id": "guide/providers",
+              "title": "Provider",
+              "description": "PageEditorProvider",
+              "source": "@site/docs/guide/providers.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/providers",
+              "permalink": "/docs/guide/providers",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/providers.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Provider"
+              },
+              "sidebar": "guide",
+              "previous": {
+                "title": "PageData 数据结构",
+                "permalink": "/docs/guide/page_data_structure"
+              }
+            },
+            {
+              "unversionedId": "intro/quick_start",
+              "id": "intro/quick_start",
+              "title": "Quick Start",
+              "description": "安装要求",
+              "source": "@site/docs/intro/quick_start.md",
+              "sourceDirName": "intro",
+              "slug": "/intro/quick_start",
+              "permalink": "/docs/intro/quick_start",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro/quick_start.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Quick Start"
+              },
+              "sidebar": "docs"
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "docs": [
+              {
+                "type": "doc",
+                "id": "intro/quick_start"
+              }
+            ],
+            "api": [
+              {
+                "type": "doc",
+                "id": "api/blocks_api"
+              },
+              {
+                "type": "doc",
+                "id": "api/hooks"
+              }
+            ],
+            "guide": [
+              {
+                "type": "doc",
+                "id": "guide/b_side_editor"
+              },
+              {
+                "type": "doc",
+                "id": "guide/c_side_render"
+              },
+              {
+                "type": "doc",
+                "id": "guide/index"
+              },
+              {
+                "type": "doc",
+                "id": "guide/page_data_structure"
+              },
+              {
+                "type": "doc",
+                "id": "guide/providers"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

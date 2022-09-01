@@ -1,0 +1,18 @@
+{
+  "unversionedId": "intro/quick_start",
+  "id": "intro/quick_start",
+  "title": "Quick Start",
+  "description": "安装要求",
+  "source": "@site/docs/intro/quick_start.md",
+  "sourceDirName": "intro",
+  "slug": "/intro/quick_start",
+  "permalink": "/docs/intro/quick_start",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro/quick_start.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Quick Start"
+  },
+  "sidebar": "docs"
+}
