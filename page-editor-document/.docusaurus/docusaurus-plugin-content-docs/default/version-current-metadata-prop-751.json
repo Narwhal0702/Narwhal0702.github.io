@@ -44,6 +44,12 @@
       },
       {
         "type": "link",
+        "label": "拖拽文档",
+        "href": "/docs/guide/drag_document",
+        "docId": "guide/drag_document"
+      },
+      {
+        "type": "link",
         "label": "index",
         "href": "/docs/guide/",
         "docId": "guide/index"
@@ -84,6 +90,12 @@
     "guide/c_side_render": {
       "id": "guide/c_side_render",
       "title": "C端渲染，",
+      "description": "",
+      "sidebar": "guide"
+    },
+    "guide/drag_document": {
+      "id": "guide/drag_document",
+      "title": "拖拽文档",
       "description": "",
       "sidebar": "guide"
     },

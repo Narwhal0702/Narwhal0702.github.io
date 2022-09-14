@@ -31,6 +31,11 @@
               "sidebar": "guide"
             },
             {
+              "id": "guide/drag_document",
+              "path": "/docs/guide/drag_document",
+              "sidebar": "guide"
+            },
+            {
               "id": "guide/index",
               "path": "/docs/guide/",
               "sidebar": "guide"

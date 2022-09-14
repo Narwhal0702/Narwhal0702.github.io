@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guide/drag_document",
+  "id": "guide/drag_document",
+  "title": "拖拽文档",
+  "description": "",
+  "source": "@site/docs/guide/drag_document.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/drag_document",
+  "permalink": "/docs/guide/drag_document",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/drag_document.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "拖拽文档"
+  },
+  "sidebar": "guide",
+  "previous": {
+    "title": "C端渲染，",
+    "permalink": "/docs/guide/c_side_render"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/docs/guide/"
+  }
+}

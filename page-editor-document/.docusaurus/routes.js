@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'de2'),
+    component: ComponentCreator('/docs', '654'),
     routes: [
       {
         path: '/docs/api/blocks_api',
@@ -73,6 +73,12 @@ export default [
       {
         path: '/docs/guide/c_side_render',
         component: ComponentCreator('/docs/guide/c_side_render', '48a'),
+        exact: true,
+        sidebar: "guide"
+      },
+      {
+        path: '/docs/guide/drag_document',
+        component: ComponentCreator('/docs/guide/drag_document', '106'),
         exact: true,
         sidebar: "guide"
       },

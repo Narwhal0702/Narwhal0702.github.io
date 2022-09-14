@@ -12,7 +12,7 @@ title: Block API
 ### Block管理器(BlockManager)
 
 #### BlockManager.getBlocks()
-* 类型: `Array(IBlock)`
+* 类型: `Array<IBlock>`
 * 用法: 
     ```js
     const blocksMap = BlockManager.getBlocks()
@@ -20,3 +20,86 @@ title: Block API
 * 详细: 获取所有的Blocks列表(? @Frank)
 
 ### BlockManager.createIdx()
+* 类型: `(blockType: string): string`
+* 用法: 
+    ```js
+    const parentIdx = createIdx(block.type);
+    ```
+* 详细: 返回一个blockType拼接uuid的随机字符串作为一个随机不可重复的blockID
+
+#### BlockManager.createBlockData()
+* 类型: `(payload: IBlockTree): IBlockTreeWithId`
+* 用法: 
+    ```js
+     const defaultData: IBlockTree = {
+        type: PageBuilderBlocks.ACCORDION,
+        data: {
+          value: {
+            currentIndex: -1,
+            columnList: [
+              {
+                textHeader: "Accordion item",
+                textDescription:
+                  '<p style="font-size: 16px; line-height: 1.5;">Accordion content</p>',
+                columnId: uuidv4(),
+              },
+            ],
+          },
+        },
+        styles: {},
+      };
+      const blockData = BlockManager.createBlockData({
+        ...defaultData,
+      });
+    ```
+* 详细: 创建一个Block的数据,如果Block包含包含children内容,将children遍历填充至children数组中
+
+#### BlockManager.createBlock()
+* 类型: `<T extends ExtendedBlockData>( block: CreateBlockOption<T> ): () => IBlock`
+* 用法: 
+    ```js
+    
+    ```
+* 详细: 
+
+#### BlockManager.createCustomBlock()
+* 类型: `<T extends ExtendedBlockData>( block: IBlock<T> ): IBlock<T>`
+* 用法: 
+    ```js
+    
+    ```
+* 详细: 
+
+#### BlockManager.registerBlocks()
+* 类型: `blocksMap: { [key: string]: IBlock }`
+* 用法: 
+    ```js
+    const map: Record<string, any> = {...};
+    BlockManager.registerBlocks(map);
+    ```
+* 详细: 将传参中的数据于Block Manger中已存在的BlockMap合并,并将值覆盖
+
+#### BlockManager.getBlockByType()
+* 类型: `(type: string): IBlock`
+* 用法: 
+    ```js
+    BlockManager.getBlockByType(BasicHtmlType.TEXT)
+    ```
+* 详细: 拿到Block列表中对应该type的第一个Block
+
+#### BlockManager.getBlocksByType()
+* 类型: `( types: Array<string> ): Array<IBlock | undefined>`
+* 用法: 
+    ```js
+     BlockManager.getBlocksByType(BasicHtmlType.TEXT)
+    ```
+* 详细: 拿到Block列表中对应该type的所有Block
+
+#### BlockManager.renderPage()
+* 类型: ``
+* 用法: 
+    ```js
+    
+    ```
+* 详细: 
+

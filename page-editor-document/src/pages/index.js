@@ -35,6 +35,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <div>Page Editor介绍</div>
       </main>
     </Layout>
   );

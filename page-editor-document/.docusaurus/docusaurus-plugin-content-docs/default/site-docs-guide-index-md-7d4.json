@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "guide",
   "previous": {
-    "title": "C端渲染，",
-    "permalink": "/docs/guide/c_side_render"
+    "title": "拖拽文档",
+    "permalink": "/docs/guide/drag_document"
   },
   "next": {
     "title": "PageData 数据结构",
