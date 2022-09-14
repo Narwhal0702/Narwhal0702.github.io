@@ -11,7 +11,7 @@ title: Block API
 
 ### Block管理器(BlockManager)
 
-#### BlockManager.getBlocks()
+### BlockManager.getBlocks()
 * 类型: `Array<IBlock>`
 * 用法: 
     ```js
@@ -27,7 +27,7 @@ title: Block API
     ```
 * 详细: 返回一个blockType拼接uuid的随机字符串作为一个随机不可重复的blockID
 
-#### BlockManager.createBlockData()
+### BlockManager.createBlockData()
 * 类型: `(payload: IBlockTree): IBlockTreeWithId`
 * 用法: 
     ```js
@@ -54,7 +54,7 @@ title: Block API
     ```
 * 详细: 创建一个Block的数据,如果Block包含包含children内容,将children遍历填充至children数组中
 
-#### BlockManager.createBlock()
+### BlockManager.createBlock()
 * 类型: `<T extends ExtendedBlockData>( block: CreateBlockOption<T> ): () => IBlock`
 * 用法: 
     ```js
@@ -62,7 +62,7 @@ title: Block API
     ```
 * 详细: 
 
-#### BlockManager.createCustomBlock()
+### BlockManager.createCustomBlock()
 * 类型: `<T extends ExtendedBlockData>( block: IBlock<T> ): IBlock<T>`
 * 用法: 
     ```js
@@ -70,7 +70,7 @@ title: Block API
     ```
 * 详细: 
 
-#### BlockManager.registerBlocks()
+### BlockManager.registerBlocks()
 * 类型: `blocksMap: { [key: string]: IBlock }`
 * 用法: 
     ```js
@@ -79,7 +79,7 @@ title: Block API
     ```
 * 详细: 将传参中的数据于Block Manger中已存在的BlockMap合并,并将值覆盖
 
-#### BlockManager.getBlockByType()
+### BlockManager.getBlockByType()
 * 类型: `(type: string): IBlock`
 * 用法: 
     ```js
@@ -87,7 +87,7 @@ title: Block API
     ```
 * 详细: 拿到Block列表中对应该type的第一个Block
 
-#### BlockManager.getBlocksByType()
+### BlockManager.getBlocksByType()
 * 类型: `( types: Array<string> ): Array<IBlock | undefined>`
 * 用法: 
     ```js
@@ -95,7 +95,7 @@ title: Block API
     ```
 * 详细: 拿到Block列表中对应该type的所有Block
 
-#### BlockManager.renderPage()
+### BlockManager.renderPage()
 * 类型: ``
 * 用法: 
     ```js

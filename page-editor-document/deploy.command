@@ -1,5 +1,6 @@
 #!/bin/bash
 
+yarn build
 
 echo "开始提交至开发分支"
 git add .
@@ -9,7 +10,6 @@ git push origin release/kiwi
 
 echo "已提交至开发仓库"
 
-yarn build
 cd build
 git init
 git remote add origin git@github.com:Narwhal0702/Narwhal0702.github.io.git
