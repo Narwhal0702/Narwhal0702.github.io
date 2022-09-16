@@ -36,6 +36,32 @@
               },
               "sidebar": "api",
               "next": {
+                "title": "数据结构定义",
+                "permalink": "/docs/api/data_structure_interface"
+              }
+            },
+            {
+              "unversionedId": "api/data_structure_interface",
+              "id": "api/data_structure_interface",
+              "title": "数据结构定义",
+              "description": "Block 原始数据结构",
+              "source": "@site/docs/api/data_structure_interface.md",
+              "sourceDirName": "api",
+              "slug": "/api/data_structure_interface",
+              "permalink": "/docs/api/data_structure_interface",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/data_structure_interface.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "数据结构定义"
+              },
+              "sidebar": "api",
+              "previous": {
+                "title": "Block API",
+                "permalink": "/docs/api/blocks_api"
+              },
+              "next": {
                 "title": "Hooks",
                 "permalink": "/docs/api/hooks"
               }
@@ -58,8 +84,34 @@
               },
               "sidebar": "api",
               "previous": {
-                "title": "Block API",
-                "permalink": "/docs/api/blocks_api"
+                "title": "数据结构定义",
+                "permalink": "/docs/api/data_structure_interface"
+              },
+              "next": {
+                "title": "Library API",
+                "permalink": "/docs/api/library_api"
+              }
+            },
+            {
+              "unversionedId": "api/library_api",
+              "id": "api/library_api",
+              "title": "Library API",
+              "description": "API",
+              "source": "@site/docs/api/library_api.md",
+              "sourceDirName": "api",
+              "slug": "/api/library_api",
+              "permalink": "/docs/api/library_api",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/library_api.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Library API"
+              },
+              "sidebar": "api",
+              "previous": {
+                "title": "Hooks",
+                "permalink": "/docs/api/hooks"
               }
             },
             {
@@ -242,7 +294,15 @@
               },
               {
                 "type": "doc",
+                "id": "api/data_structure_interface"
+              },
+              {
+                "type": "doc",
                 "id": "api/hooks"
+              },
+              {
+                "type": "doc",
+                "id": "api/library_api"
               }
             ],
             "guide": [

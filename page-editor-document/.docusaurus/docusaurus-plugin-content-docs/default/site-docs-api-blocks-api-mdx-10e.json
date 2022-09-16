@@ -16,7 +16,7 @@
   },
   "sidebar": "api",
   "next": {
-    "title": "Hooks",
-    "permalink": "/docs/api/hooks"
+    "title": "数据结构定义",
+    "permalink": "/docs/api/data_structure_interface"
   }
 }

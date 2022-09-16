@@ -16,8 +16,18 @@
               "sidebar": "api"
             },
             {
+              "id": "api/data_structure_interface",
+              "path": "/docs/api/data_structure_interface",
+              "sidebar": "api"
+            },
+            {
               "id": "api/hooks",
               "path": "/docs/api/hooks",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/library_api",
+              "path": "/docs/api/library_api",
               "sidebar": "api"
             },
             {

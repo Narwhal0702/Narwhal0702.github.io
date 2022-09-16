@@ -1,0 +1,22 @@
+{
+  "unversionedId": "api/library_api",
+  "id": "api/library_api",
+  "title": "Library API",
+  "description": "API",
+  "source": "@site/docs/api/library_api.md",
+  "sourceDirName": "api",
+  "slug": "/api/library_api",
+  "permalink": "/docs/api/library_api",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/library_api.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Library API"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "Hooks",
+    "permalink": "/docs/api/hooks"
+  }
+}

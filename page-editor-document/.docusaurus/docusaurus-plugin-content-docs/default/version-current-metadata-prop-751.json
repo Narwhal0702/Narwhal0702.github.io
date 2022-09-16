@@ -24,9 +24,21 @@
       },
       {
         "type": "link",
+        "label": "数据结构定义",
+        "href": "/docs/api/data_structure_interface",
+        "docId": "api/data_structure_interface"
+      },
+      {
+        "type": "link",
         "label": "Hooks",
         "href": "/docs/api/hooks",
         "docId": "api/hooks"
+      },
+      {
+        "type": "link",
+        "label": "Library API",
+        "href": "/docs/api/library_api",
+        "docId": "api/library_api"
       }
     ],
     "guide": [
@@ -75,10 +87,22 @@
       "description": "API",
       "sidebar": "api"
     },
+    "api/data_structure_interface": {
+      "id": "api/data_structure_interface",
+      "title": "数据结构定义",
+      "description": "Block 原始数据结构",
+      "sidebar": "api"
+    },
     "api/hooks": {
       "id": "api/hooks",
       "title": "Hooks",
       "description": "adsasdas",
+      "sidebar": "api"
+    },
+    "api/library_api": {
+      "id": "api/library_api",
+      "title": "Library API",
+      "description": "API",
       "sidebar": "api"
     },
     "guide/b_side_editor": {

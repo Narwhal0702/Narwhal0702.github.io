@@ -16,7 +16,11 @@
   },
   "sidebar": "api",
   "previous": {
-    "title": "Block API",
-    "permalink": "/docs/api/blocks_api"
+    "title": "数据结构定义",
+    "permalink": "/docs/api/data_structure_interface"
+  },
+  "next": {
+    "title": "Library API",
+    "permalink": "/docs/api/library_api"
   }
 }

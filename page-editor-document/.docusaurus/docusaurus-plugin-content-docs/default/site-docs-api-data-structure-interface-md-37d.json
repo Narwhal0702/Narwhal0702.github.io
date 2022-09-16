@@ -1,0 +1,26 @@
+{
+  "unversionedId": "api/data_structure_interface",
+  "id": "api/data_structure_interface",
+  "title": "数据结构定义",
+  "description": "Block 原始数据结构",
+  "source": "@site/docs/api/data_structure_interface.md",
+  "sourceDirName": "api",
+  "slug": "/api/data_structure_interface",
+  "permalink": "/docs/api/data_structure_interface",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/data_structure_interface.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "数据结构定义"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "Block API",
+    "permalink": "/docs/api/blocks_api"
+  },
+  "next": {
+    "title": "Hooks",
+    "permalink": "/docs/api/hooks"
+  }
+}

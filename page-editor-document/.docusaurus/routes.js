@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '654'),
+    component: ComponentCreator('/docs', '402'),
     routes: [
       {
         path: '/docs/api/blocks_api',
@@ -18,8 +18,20 @@ export default [
         sidebar: "api"
       },
       {
+        path: '/docs/api/data_structure_interface',
+        component: ComponentCreator('/docs/api/data_structure_interface', 'cb3'),
+        exact: true,
+        sidebar: "api"
+      },
+      {
         path: '/docs/api/hooks',
         component: ComponentCreator('/docs/api/hooks', '498'),
+        exact: true,
+        sidebar: "api"
+      },
+      {
+        path: '/docs/api/library_api',
+        component: ComponentCreator('/docs/api/library_api', '17c'),
         exact: true,
         sidebar: "api"
       },
