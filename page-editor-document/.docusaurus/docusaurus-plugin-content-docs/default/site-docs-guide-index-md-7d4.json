@@ -14,11 +14,7 @@
   "frontMatter": {},
   "sidebar": "guide",
   "previous": {
-    "title": "拖拽文档",
-    "permalink": "/docs/guide/drag_document"
-  },
-  "next": {
-    "title": "PageData 数据结构",
-    "permalink": "/docs/guide/page_data_structure"
+    "title": "进阶能力",
+    "permalink": "/docs/guide/advance_func"
   }
 }

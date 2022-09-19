@@ -18,5 +18,9 @@
   "previous": {
     "title": "Hooks",
     "permalink": "/docs/api/hooks"
+  },
+  "next": {
+    "title": "localstorage_api",
+    "permalink": "/docs/api/localstorage_api"
   }
 }

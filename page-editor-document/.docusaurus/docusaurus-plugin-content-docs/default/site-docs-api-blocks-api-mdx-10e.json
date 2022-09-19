@@ -15,8 +15,12 @@
     "title": "Block API"
   },
   "sidebar": "api",
+  "previous": {
+    "title": "Store API",
+    "permalink": "/docs/api/store_api"
+  },
   "next": {
-    "title": "数据结构定义",
+    "title": "数据结构与常量的定义",
     "permalink": "/docs/api/data_structure_interface"
   }
 }

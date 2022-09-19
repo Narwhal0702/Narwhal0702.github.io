@@ -18,13 +18,19 @@
     "api": [
       {
         "type": "link",
+        "label": "Store API",
+        "href": "/docs/api/store_api",
+        "docId": "api/store_api"
+      },
+      {
+        "type": "link",
         "label": "Block API",
         "href": "/docs/api/blocks_api",
         "docId": "api/blocks_api"
       },
       {
         "type": "link",
-        "label": "数据结构定义",
+        "label": "数据结构与常量的定义",
         "href": "/docs/api/data_structure_interface",
         "docId": "api/data_structure_interface"
       },
@@ -39,33 +45,15 @@
         "label": "Library API",
         "href": "/docs/api/library_api",
         "docId": "api/library_api"
+      },
+      {
+        "type": "link",
+        "label": "localstorage_api",
+        "href": "/docs/api/localstorage_api",
+        "docId": "api/localstorage_api"
       }
     ],
     "guide": [
-      {
-        "type": "link",
-        "label": "B端编辑器",
-        "href": "/docs/guide/b_side_editor",
-        "docId": "guide/b_side_editor"
-      },
-      {
-        "type": "link",
-        "label": "C端渲染，",
-        "href": "/docs/guide/c_side_render",
-        "docId": "guide/c_side_render"
-      },
-      {
-        "type": "link",
-        "label": "拖拽文档",
-        "href": "/docs/guide/drag_document",
-        "docId": "guide/drag_document"
-      },
-      {
-        "type": "link",
-        "label": "index",
-        "href": "/docs/guide/",
-        "docId": "guide/index"
-      },
       {
         "type": "link",
         "label": "PageData 数据结构",
@@ -77,6 +65,42 @@
         "label": "Provider",
         "href": "/docs/guide/providers",
         "docId": "guide/providers"
+      },
+      {
+        "type": "link",
+        "label": "B端编辑器",
+        "href": "/docs/guide/b_side_editor",
+        "docId": "guide/b_side_editor"
+      },
+      {
+        "type": "link",
+        "label": "C端渲染",
+        "href": "/docs/guide/c_side_render",
+        "docId": "guide/c_side_render"
+      },
+      {
+        "type": "link",
+        "label": "拖拽文档",
+        "href": "/docs/guide/drag_document",
+        "docId": "guide/drag_document"
+      },
+      {
+        "type": "link",
+        "label": "Undo and Redo",
+        "href": "/docs/guide/undo_and_redo",
+        "docId": "guide/undo_and_redo"
+      },
+      {
+        "type": "link",
+        "label": "进阶能力",
+        "href": "/docs/guide/advance_func",
+        "docId": "guide/advance_func"
+      },
+      {
+        "type": "link",
+        "label": "index",
+        "href": "/docs/guide/",
+        "docId": "guide/index"
       }
     ]
   },
@@ -89,14 +113,14 @@
     },
     "api/data_structure_interface": {
       "id": "api/data_structure_interface",
-      "title": "数据结构定义",
-      "description": "Block 原始数据结构",
+      "title": "数据结构与常量的定义",
+      "description": "常量定义",
       "sidebar": "api"
     },
     "api/hooks": {
       "id": "api/hooks",
       "title": "Hooks",
-      "description": "adsasdas",
+      "description": "usePreviewContent()",
       "sidebar": "api"
     },
     "api/library_api": {
@@ -104,6 +128,24 @@
       "title": "Library API",
       "description": "API",
       "sidebar": "api"
+    },
+    "api/localstorage_api": {
+      "id": "api/localstorage_api",
+      "title": "localstorage_api",
+      "description": "---",
+      "sidebar": "api"
+    },
+    "api/store_api": {
+      "id": "api/store_api",
+      "title": "Store API",
+      "description": "store",
+      "sidebar": "api"
+    },
+    "guide/advance_func": {
+      "id": "guide/advance_func",
+      "title": "进阶能力",
+      "description": "",
+      "sidebar": "guide"
     },
     "guide/b_side_editor": {
       "id": "guide/b_side_editor",
@@ -113,7 +155,7 @@
     },
     "guide/c_side_render": {
       "id": "guide/c_side_render",
-      "title": "C端渲染，",
+      "title": "C端渲染",
       "description": "",
       "sidebar": "guide"
     },
@@ -139,6 +181,12 @@
       "id": "guide/providers",
       "title": "Provider",
       "description": "PageEditorProvider",
+      "sidebar": "guide"
+    },
+    "guide/undo_and_redo": {
+      "id": "guide/undo_and_redo",
+      "title": "Undo and Redo",
+      "description": "",
       "sidebar": "guide"
     },
     "intro/quick_start": {

@@ -1,8 +1,8 @@
 {
   "unversionedId": "api/data_structure_interface",
   "id": "api/data_structure_interface",
-  "title": "数据结构定义",
-  "description": "Block 原始数据结构",
+  "title": "数据结构与常量的定义",
+  "description": "常量定义",
   "source": "@site/docs/api/data_structure_interface.md",
   "sourceDirName": "api",
   "slug": "/api/data_structure_interface",
@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "数据结构定义"
+    "title": "数据结构与常量的定义"
   },
   "sidebar": "api",
   "previous": {

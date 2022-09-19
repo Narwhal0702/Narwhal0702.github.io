@@ -11,12 +11,18 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/b_side_editor.md",
   "tags": [],
   "version": "current",
+  "sidebarPosition": 3,
   "frontMatter": {
-    "title": "B端编辑器"
+    "title": "B端编辑器",
+    "sidebar_position": 3
   },
   "sidebar": "guide",
+  "previous": {
+    "title": "Provider",
+    "permalink": "/docs/guide/providers"
+  },
   "next": {
-    "title": "C端渲染，",
+    "title": "C端渲染",
     "permalink": "/docs/guide/c_side_render"
   }
 }

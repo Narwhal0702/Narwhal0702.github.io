@@ -31,6 +31,21 @@
               "sidebar": "api"
             },
             {
+              "id": "api/localstorage_api",
+              "path": "/docs/api/localstorage_api",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/store_api",
+              "path": "/docs/api/store_api",
+              "sidebar": "api"
+            },
+            {
+              "id": "guide/advance_func",
+              "path": "/docs/guide/advance_func",
+              "sidebar": "guide"
+            },
+            {
               "id": "guide/b_side_editor",
               "path": "/docs/guide/b_side_editor",
               "sidebar": "guide"
@@ -61,6 +76,11 @@
               "sidebar": "guide"
             },
             {
+              "id": "guide/undo_and_redo",
+              "path": "/docs/guide/undo_and_redo",
+              "sidebar": "guide"
+            },
+            {
               "id": "intro/quick_start",
               "path": "/docs/intro/quick_start",
               "sidebar": "docs"
@@ -76,14 +96,14 @@
             },
             "api": {
               "link": {
-                "path": "/docs/api/blocks_api",
-                "label": "api/blocks_api"
+                "path": "/docs/api/store_api",
+                "label": "api/store_api"
               }
             },
             "guide": {
               "link": {
-                "path": "/docs/guide/b_side_editor",
-                "label": "guide/b_side_editor"
+                "path": "/docs/guide/page_data_structure",
+                "label": "guide/page_data_structure"
               }
             }
           }

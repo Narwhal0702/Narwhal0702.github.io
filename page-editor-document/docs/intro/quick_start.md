@@ -24,7 +24,9 @@ yarn add @aftership/page-editor-core
 * 接入项目调试
     * 在page-editor中运行`yarn build`
     * 在需要使用的项目中使用`npm-link 进行调试`
-## 使用
+
+
+## B端接入使用
 * 创建一个`PageEditorProvider`
 ```jsx
 import {
@@ -70,7 +72,7 @@ export default function App() {
 
 
 
-## 渲染
+## C端渲染
 
 
 ## Demo

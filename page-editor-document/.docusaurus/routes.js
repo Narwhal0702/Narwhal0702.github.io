@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '402'),
+    component: ComponentCreator('/docs', '783'),
     routes: [
       {
         path: '/docs/api/blocks_api',
@@ -36,8 +36,26 @@ export default [
         sidebar: "api"
       },
       {
+        path: '/docs/api/localstorage_api',
+        component: ComponentCreator('/docs/api/localstorage_api', '10e'),
+        exact: true,
+        sidebar: "api"
+      },
+      {
+        path: '/docs/api/store_api',
+        component: ComponentCreator('/docs/api/store_api', '4c5'),
+        exact: true,
+        sidebar: "api"
+      },
+      {
         path: '/docs/guide/',
         component: ComponentCreator('/docs/guide/', 'cc8'),
+        exact: true,
+        sidebar: "guide"
+      },
+      {
+        path: '/docs/guide/advance_func',
+        component: ComponentCreator('/docs/guide/advance_func', 'bd1'),
         exact: true,
         sidebar: "guide"
       },
@@ -68,6 +86,12 @@ export default [
       {
         path: '/docs/guide/providers',
         component: ComponentCreator('/docs/guide/providers', 'c88'),
+        exact: true,
+        sidebar: "guide"
+      },
+      {
+        path: '/docs/guide/undo_and_redo',
+        component: ComponentCreator('/docs/guide/undo_and_redo', '04a'),
         exact: true,
         sidebar: "guide"
       },

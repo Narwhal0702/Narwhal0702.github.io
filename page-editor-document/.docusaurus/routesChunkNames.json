@@ -6,7 +6,7 @@
     },
     "content": "393be207"
   },
-  "/docs-402": {
+  "/docs-783": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "b1f53cab"
@@ -29,9 +29,21 @@
     "__comp": "17896441",
     "content": "928673d2"
   },
+  "/docs/api/localstorage_api-10e": {
+    "__comp": "17896441",
+    "content": "bd74ee66"
+  },
+  "/docs/api/store_api-4c5": {
+    "__comp": "17896441",
+    "content": "0b8bdda4"
+  },
   "/docs/guide/-cc8": {
     "__comp": "17896441",
     "content": "7d4685ea"
+  },
+  "/docs/guide/advance_func-bd1": {
+    "__comp": "17896441",
+    "content": "35b80fc1"
   },
   "/docs/guide/b_side_editor-f9a": {
     "__comp": "17896441",
@@ -52,6 +64,10 @@
   "/docs/guide/providers-c88": {
     "__comp": "17896441",
     "content": "b79a19b1"
+  },
+  "/docs/guide/undo_and_redo-04a": {
+    "__comp": "17896441",
+    "content": "87cc8705"
   },
   "/docs/intro/quick_start-bb4": {
     "__comp": "17896441",

@@ -35,16 +35,20 @@
                 "title": "Block API"
               },
               "sidebar": "api",
+              "previous": {
+                "title": "Store API",
+                "permalink": "/docs/api/store_api"
+              },
               "next": {
-                "title": "数据结构定义",
+                "title": "数据结构与常量的定义",
                 "permalink": "/docs/api/data_structure_interface"
               }
             },
             {
               "unversionedId": "api/data_structure_interface",
               "id": "api/data_structure_interface",
-              "title": "数据结构定义",
-              "description": "Block 原始数据结构",
+              "title": "数据结构与常量的定义",
+              "description": "常量定义",
               "source": "@site/docs/api/data_structure_interface.md",
               "sourceDirName": "api",
               "slug": "/api/data_structure_interface",
@@ -54,7 +58,7 @@
               "tags": [],
               "version": "current",
               "frontMatter": {
-                "title": "数据结构定义"
+                "title": "数据结构与常量的定义"
               },
               "sidebar": "api",
               "previous": {
@@ -70,7 +74,7 @@
               "unversionedId": "api/hooks",
               "id": "api/hooks",
               "title": "Hooks",
-              "description": "adsasdas",
+              "description": "usePreviewContent()",
               "source": "@site/docs/api/hooks.md",
               "sourceDirName": "api",
               "slug": "/api/hooks",
@@ -84,7 +88,7 @@
               },
               "sidebar": "api",
               "previous": {
-                "title": "数据结构定义",
+                "title": "数据结构与常量的定义",
                 "permalink": "/docs/api/data_structure_interface"
               },
               "next": {
@@ -112,6 +116,82 @@
               "previous": {
                 "title": "Hooks",
                 "permalink": "/docs/api/hooks"
+              },
+              "next": {
+                "title": "localstorage_api",
+                "permalink": "/docs/api/localstorage_api"
+              }
+            },
+            {
+              "unversionedId": "api/localstorage_api",
+              "id": "api/localstorage_api",
+              "title": "localstorage_api",
+              "description": "---",
+              "source": "@site/docs/api/localstorage_api.md",
+              "sourceDirName": "api",
+              "slug": "/api/localstorage_api",
+              "permalink": "/docs/api/localstorage_api",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/localstorage_api.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "api",
+              "previous": {
+                "title": "Library API",
+                "permalink": "/docs/api/library_api"
+              }
+            },
+            {
+              "unversionedId": "api/store_api",
+              "id": "api/store_api",
+              "title": "Store API",
+              "description": "store",
+              "source": "@site/docs/api/store_api.md",
+              "sourceDirName": "api",
+              "slug": "/api/store_api",
+              "permalink": "/docs/api/store_api",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/store_api.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Store API",
+                "sidebar_position": 5
+              },
+              "sidebar": "api",
+              "next": {
+                "title": "Block API",
+                "permalink": "/docs/api/blocks_api"
+              }
+            },
+            {
+              "unversionedId": "guide/advance_func",
+              "id": "guide/advance_func",
+              "title": "进阶能力",
+              "description": "",
+              "source": "@site/docs/guide/advance_func.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/advance_func",
+              "permalink": "/docs/guide/advance_func",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/advance_func.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "title": "进阶能力",
+                "sidebar_position": 7
+              },
+              "sidebar": "guide",
+              "previous": {
+                "title": "Undo and Redo",
+                "permalink": "/docs/guide/undo_and_redo"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/docs/guide/"
               }
             },
             {
@@ -127,19 +207,25 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/b_side_editor.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 3,
               "frontMatter": {
-                "title": "B端编辑器"
+                "title": "B端编辑器",
+                "sidebar_position": 3
               },
               "sidebar": "guide",
+              "previous": {
+                "title": "Provider",
+                "permalink": "/docs/guide/providers"
+              },
               "next": {
-                "title": "C端渲染，",
+                "title": "C端渲染",
                 "permalink": "/docs/guide/c_side_render"
               }
             },
             {
               "unversionedId": "guide/c_side_render",
               "id": "guide/c_side_render",
-              "title": "C端渲染，",
+              "title": "C端渲染",
               "description": "",
               "source": "@site/docs/guide/c_side_render.md",
               "sourceDirName": "guide",
@@ -149,8 +235,10 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/c_side_render.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 4,
               "frontMatter": {
-                "title": "C端渲染，"
+                "title": "C端渲染",
+                "sidebar_position": 4
               },
               "sidebar": "guide",
               "previous": {
@@ -175,17 +263,19 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/drag_document.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 5,
               "frontMatter": {
-                "title": "拖拽文档"
+                "title": "拖拽文档",
+                "sidebar_position": 5
               },
               "sidebar": "guide",
               "previous": {
-                "title": "C端渲染，",
+                "title": "C端渲染",
                 "permalink": "/docs/guide/c_side_render"
               },
               "next": {
-                "title": "index",
-                "permalink": "/docs/guide/"
+                "title": "Undo and Redo",
+                "permalink": "/docs/guide/undo_and_redo"
               }
             },
             {
@@ -204,12 +294,8 @@
               "frontMatter": {},
               "sidebar": "guide",
               "previous": {
-                "title": "拖拽文档",
-                "permalink": "/docs/guide/drag_document"
-              },
-              "next": {
-                "title": "PageData 数据结构",
-                "permalink": "/docs/guide/page_data_structure"
+                "title": "进阶能力",
+                "permalink": "/docs/guide/advance_func"
               }
             },
             {
@@ -225,14 +311,12 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/page_data_structure.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 1,
               "frontMatter": {
-                "title": "PageData 数据结构"
+                "title": "PageData 数据结构",
+                "sidebar_position": 1
               },
               "sidebar": "guide",
-              "previous": {
-                "title": "index",
-                "permalink": "/docs/guide/"
-              },
               "next": {
                 "title": "Provider",
                 "permalink": "/docs/guide/providers"
@@ -251,13 +335,47 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/providers.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 2,
               "frontMatter": {
-                "title": "Provider"
+                "title": "Provider",
+                "sidebar_position": 2
               },
               "sidebar": "guide",
               "previous": {
                 "title": "PageData 数据结构",
                 "permalink": "/docs/guide/page_data_structure"
+              },
+              "next": {
+                "title": "B端编辑器",
+                "permalink": "/docs/guide/b_side_editor"
+              }
+            },
+            {
+              "unversionedId": "guide/undo_and_redo",
+              "id": "guide/undo_and_redo",
+              "title": "Undo and Redo",
+              "description": "",
+              "source": "@site/docs/guide/undo_and_redo.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/undo_and_redo",
+              "permalink": "/docs/guide/undo_and_redo",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/undo_and_redo.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "title": "Undo and Redo",
+                "sidebar_position": 6
+              },
+              "sidebar": "guide",
+              "previous": {
+                "title": "拖拽文档",
+                "permalink": "/docs/guide/drag_document"
+              },
+              "next": {
+                "title": "进阶能力",
+                "permalink": "/docs/guide/advance_func"
               }
             },
             {
@@ -290,6 +408,10 @@
             "api": [
               {
                 "type": "doc",
+                "id": "api/store_api"
+              },
+              {
+                "type": "doc",
                 "id": "api/blocks_api"
               },
               {
@@ -303,9 +425,21 @@
               {
                 "type": "doc",
                 "id": "api/library_api"
+              },
+              {
+                "type": "doc",
+                "id": "api/localstorage_api"
               }
             ],
             "guide": [
+              {
+                "type": "doc",
+                "id": "guide/page_data_structure"
+              },
+              {
+                "type": "doc",
+                "id": "guide/providers"
+              },
               {
                 "type": "doc",
                 "id": "guide/b_side_editor"
@@ -320,15 +454,15 @@
               },
               {
                 "type": "doc",
+                "id": "guide/undo_and_redo"
+              },
+              {
+                "type": "doc",
+                "id": "guide/advance_func"
+              },
+              {
+                "type": "doc",
                 "id": "guide/index"
-              },
-              {
-                "type": "doc",
-                "id": "guide/page_data_structure"
-              },
-              {
-                "type": "doc",
-                "id": "guide/providers"
               }
             ]
           }

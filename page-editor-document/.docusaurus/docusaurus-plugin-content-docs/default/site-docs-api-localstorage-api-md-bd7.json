@@ -1,0 +1,20 @@
+{
+  "unversionedId": "api/localstorage_api",
+  "id": "api/localstorage_api",
+  "title": "localstorage_api",
+  "description": "---",
+  "source": "@site/docs/api/localstorage_api.md",
+  "sourceDirName": "api",
+  "slug": "/api/localstorage_api",
+  "permalink": "/docs/api/localstorage_api",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/api/localstorage_api.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "api",
+  "previous": {
+    "title": "Library API",
+    "permalink": "/docs/api/library_api"
+  }
+}

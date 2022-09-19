@@ -2,7 +2,7 @@
   "unversionedId": "api/hooks",
   "id": "api/hooks",
   "title": "Hooks",
-  "description": "adsasdas",
+  "description": "usePreviewContent()",
   "source": "@site/docs/api/hooks.md",
   "sourceDirName": "api",
   "slug": "/api/hooks",
@@ -16,7 +16,7 @@
   },
   "sidebar": "api",
   "previous": {
-    "title": "数据结构定义",
+    "title": "数据结构与常量的定义",
     "permalink": "/docs/api/data_structure_interface"
   },
   "next": {

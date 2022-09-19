@@ -1,0 +1,28 @@
+{
+  "unversionedId": "guide/undo_and_redo",
+  "id": "guide/undo_and_redo",
+  "title": "Undo and Redo",
+  "description": "",
+  "source": "@site/docs/guide/undo_and_redo.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/undo_and_redo",
+  "permalink": "/docs/guide/undo_and_redo",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/undo_and_redo.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Undo and Redo",
+    "sidebar_position": 6
+  },
+  "sidebar": "guide",
+  "previous": {
+    "title": "拖拽文档",
+    "permalink": "/docs/guide/drag_document"
+  },
+  "next": {
+    "title": "进阶能力",
+    "permalink": "/docs/guide/advance_func"
+  }
+}

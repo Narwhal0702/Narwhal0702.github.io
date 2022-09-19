@@ -1,7 +1,7 @@
 {
   "unversionedId": "guide/c_side_render",
   "id": "guide/c_side_render",
-  "title": "C端渲染，",
+  "title": "C端渲染",
   "description": "",
   "source": "@site/docs/guide/c_side_render.md",
   "sourceDirName": "guide",
@@ -11,8 +11,10 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guide/c_side_render.md",
   "tags": [],
   "version": "current",
+  "sidebarPosition": 4,
   "frontMatter": {
-    "title": "C端渲染，"
+    "title": "C端渲染",
+    "sidebar_position": 4
   },
   "sidebar": "guide",
   "previous": {
